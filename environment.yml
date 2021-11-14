@@ -1,0 +1,12 @@
+name: deep-learning-monitoring
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - scikit-learn[version='>=0.22']
+  - tensorflow[version='>=2.5']
+  - seaborn
+  - pandas
+  - jupyter
+prefix: /home/dsmits/anaconda3/envs/deep-learning-test
+
